@@ -19,7 +19,7 @@ public class MensagemController {
     }
 
     @GetMapping("/mensagem")
-    public String mensagem(@RequestParam String param) {
+    public String mensagem() {
         return mensagemService.obterMensagem();
     }
     
