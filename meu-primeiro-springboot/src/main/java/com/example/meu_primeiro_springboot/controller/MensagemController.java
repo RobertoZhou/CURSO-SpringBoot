@@ -18,7 +18,7 @@ public class MensagemController {
         this.mensagemService = mensagemService;
     }
 
-    @GetMapping("/mensagem")
+    @GetMapping("/mensagem") 
     public String mensagem() {
         return mensagemService.obterMensagem();
     }
